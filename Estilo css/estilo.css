@@ -41,14 +41,14 @@ main {
 
 section {
     margin-bottom: 30px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #ff008c83;
     padding-bottom: 20px;
 }
 
 /* Actividad 3: Etiquetas de Estilo */
 mark {
     background-color: #00e676;
-    color: black;
+    color: rgb(253, 6, 6);
     border-radius: 3px;
     padding: 0 5px;
 }
@@ -70,12 +70,19 @@ img {
     margin: 20px 0;
 }
 
+.img01{
+      margin: auto;
+    display: block;
+    width: 30%;
+    
+}
+
 /* Actividad 9: Tablas */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background: #1c1c1c;
+    background: #5b5f5f;
 }
 
 table caption {
@@ -88,10 +95,12 @@ th, td {
     border: 1px solid #333;
     padding: 12px;
     text-align: left;
+    margin: auto;
 }
 
 th {
     background-color: #1a237e;
+    color: #e74c3c;
 }
 
 footer {
